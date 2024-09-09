@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Instructions Generator</title>
+</head>
+<body>
+    <h1>Testing Instructions Generator</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="context">Optional Context:</label><br>
+        <textarea id="context" name="context" rows="4" cols="50"></textarea><br><br>
+
+        <label for="images">Upload Screenshots:</label><br>
+        <input type="file" id="images" name="images" multiple><br><br>
+
+        <button type="submit">Describe Testing Instructions</button>
+    </form>
+
+    {% if results %}
+        <h2>Generated Testing Instructions:</h2>
+        <pre>{{ results }}</pre>
+    {% endif %}
+</body>
+</html>
