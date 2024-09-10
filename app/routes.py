@@ -20,3 +20,4 @@ def index():
         return jsonify(results)
 
     return render_template('index.html')
+
