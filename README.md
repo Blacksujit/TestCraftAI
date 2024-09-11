@@ -96,9 +96,7 @@ Open your web browser and go to: http://127.0.0.1:5000
 2.) Add Context: (Optional) Provide context to make the instructions more specific.
 
 3.) Generate Instructions: Click the "Generate" button to receive your test instructions.
-
-## ✨ Sample Outputs:
-
+ 
 ## 🛠️ Development:
 
 Feel free to contribute by forking the repository, making changes, and submitting a pull request!
