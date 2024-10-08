@@ -2,7 +2,7 @@ import requests
 import os
 
 API_URL = "https://api-inference.huggingface.co/models/dandelin/vilt-b32-finetuned-vqa"
-API_KEY = os.getenv("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")
+API_KEY = os.getenv("your_API_KEY")
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
 def query_huggingface_api(image_path, question):
