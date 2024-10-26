@@ -50,8 +50,8 @@ This project provides a web-based interface to generate test instructions using 
 
 1. Clone the Repository:
 
-
-```git clone https://github.com/Blacksujit/MultiModel_LLM_Tool
+```
+git clone https://github.com/Blacksujit/TestCraftAI.git
 ```
 
 ```
