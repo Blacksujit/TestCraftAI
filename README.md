@@ -56,13 +56,16 @@ git clone https://github.com/Blacksujit/TestCraftAI.git
 
 ```
 
-cd multimodel-llm-tool
+cd app
 ```
 
 2. Create a Virtual Environment:
 
 ```
 python -m venv venv
+```
+
+```
 
 ``On Windows: venv\Scripts\activate``
 
@@ -86,7 +89,7 @@ transformers-cli download dandelin/vilt-b32-finetuned-vqa
 
 
 ```
-python run.py
+python app.py
 ```
 
 6. Access the Application:
