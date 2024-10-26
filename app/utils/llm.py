@@ -79,9 +79,9 @@ if __name__ == "__main__":
     
     # Example usage
     context = "Testing a booking feature in a bus reservation app."
-    image_paths = ["source_selection.png", "destination_selection.png", "date_selection.png"]
+    image_paths = ["app/uploads/images.jpeg"]
     
-    print("\nExample usage:")
+    print("Example usage:")
     print(f"Context: {context}")
     print(f"Image paths: {image_paths}")
     
@@ -93,6 +93,11 @@ if __name__ == "__main__":
         print(f"Question: {instruction['question']}")
         print(f"Answer: {instruction['answer']}\n")
 
+    print("Note: The current output 'phone' is not the expected result for a bus reservation app.")
+    print("The VQA model should ideally provide more relevant testing instructions.")
+    print("Consider fine-tuning the model or adjusting the prompt for better results.")
+
 # This project uses a VQA model to automatically generate testing instructions
 # for software features based on screenshots and optional context. This can significantly
 # speed up the process of creating test cases and ensure more comprehensive testing coverage.
+# However, the current output suggests that further improvements may be needed for accurate results.
