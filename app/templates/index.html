@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Describe Testing Instructions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Testing Instructions</h1>
+        <form id="uploadForm" method="POST" enctype="multipart/form-data" action="/api/describe-instructions">
+            <textarea name="context" placeholder="Optional Context"></textarea>
+            <input type="file" name="images" multiple required>
+            <button type="submit">Describe Testing Instructions</button>
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').onsubmit = async function (e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            
+            const responseDiv = document.getElementById('response');
+            responseDiv.innerHTML = 'Processing...';
+
+            const response = await fetch('/api/describe-instructions', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+            if (response.ok) {
+                responseDiv.innerHTML = '<pre>' + JSON.stringify(result.instructions, null, 2) + '</pre>';
+            } else {
+                responseDiv.innerHTML = 'Error: ' + result.error;
+            }
+        };
+    </script>
+</body>
+</html>
