@@ -50,10 +50,13 @@ This project provides a web-based interface to generate test instructions using 
 
 1. Clone the Repository:
 
+
 ```git clone https://github.com/Blacksujit/MultiModel_LLM_Tool
 ```
 
-```cd multimodel-llm-tool
+```
+
+cd multimodel-llm-tool
 ```
 
 2. Create a Virtual Environment:
