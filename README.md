@@ -38,6 +38,13 @@ This project provides a web-based interface to generate test instructions using 
 
 ```
 
+# Project View :
+
+
+![image](https://github.com/user-attachments/assets/0f00eb25-11db-4748-a1f1-133e96f82862)
+
+
+
 ## ⚙️ Setup Instructions:
 
 ### Prerequisites:
