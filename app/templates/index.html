@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Describe Testing Instructions</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.scss') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Testing Instructions</h1>
+        <form id="uploadForm" method="POST" enctype="multipart/form-data" action="/api/describe-instructions">
+            <textarea name="context" placeholder="Optional Context"></textarea>
+            <input type="file" name="images" multiple required>
+            <button type="submit">Describe Testing Instructions</button>
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
+=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,3 +64,4 @@
     </script>
 </body>
 </html>
+>>>>>>> 80f3dbc3637d158577840b77168bd6af3236a740
