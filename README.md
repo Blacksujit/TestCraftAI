@@ -1,4 +1,4 @@
-# 🧪 MultiModel LLM Tool:
+# 🧪 TestCraftAI:
 
 ## Automated Test Instruction Generator
 
