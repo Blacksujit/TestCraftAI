@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ 
 # This file contains the core functionality for generating test instructions using a Visual Question Answering (VQA) model.
 
 # Import necessary libraries
@@ -201,4 +201,4 @@ if __name__ == "__main__":
 # This project uses a VQA model to automatically generate testing instructions
 # for software features based on screenshots and optional context. This can significantly
 # speed up the process of creating test cases and ensure more comprehensive testing coverage.
->>>>>>> 80f3dbc3637d158577840b77168bd6af3236a740
+ 
