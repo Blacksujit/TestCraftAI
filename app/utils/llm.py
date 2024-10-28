@@ -102,7 +102,7 @@ if __name__ == "__main__":
 # for software features based on screenshots and optional context. This can significantly
 # speed up the process of creating test cases and ensure more comprehensive testing coverage.
 # However, the current output suggests that further improvements may be needed for accurate results.
-=======
+ 
 # This file contains the core functionality for generating test instructions using a Visual Question Answering (VQA) model.
 
 # Import necessary libraries
