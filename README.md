@@ -1,6 +1,10 @@
 # 🧪 TestCraftAI:
 
-## Automated Test Instruction Generator
+
+## Automated Test Instruction Generator 🌟
+
+
+### Empowering test automation with AI 🌟
 
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python) ![Flask](https://img.shields.io/badge/Flask-2.3.2-green?style=flat-square&logo=flask) ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Transformers-orange?style=flat-square&logo=hugging-face)
@@ -143,6 +147,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 3.) **Community contributors for their continuous support.**
 
 
-### Empowering test automation with AI 🌟
 
 
