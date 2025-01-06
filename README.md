@@ -1,4 +1,4 @@
-# 🧪 TestCraftAI:
+# 🧪 TestCraftAI
 
 
 ## Automated Test Instruction Generator 🌟
